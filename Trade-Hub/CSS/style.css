@@ -1,0 +1,244 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.header{
+    padding: 20px;
+    padding-left: 80px;
+    background-color: #f7f8f8;
+    text-transform: uppercase;
+    font: size 0.8em;
+}
+.footer{
+    padding: 20px;
+    padding-left: 80px;
+    background-color: #f7f8f8;
+    text-transform: uppercase;
+    font: size 0.8em;
+}
+.header-bottom-bar{
+    padding: 20px;
+    padding-left: 80px;
+    box-shadow: 0 1px 1px #000;
+}
+a{
+    text-decoration: none;
+}
+.top-bar-items{
+    display: inline-block;
+    padding:10px ;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.header-bottom{
+    padding-top: 10px;
+}
+.selectInput{
+    padding: 10px;
+    width: 200px;
+}
+.search{
+    width: 40vw;
+}
+.fa-magnifying-glass{
+    background-color: #002f34;
+   color: #fff; 
+   padding: 12px;
+   border-radius: 5px;
+}
+.sell-button{
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    border-bottom: 3px solid #3a77ff;
+    border-top: 3px solid #3a77ff;
+    border-left: 3px solid #ffce32 ;
+    border-right: 3px solid #23e5db ;
+
+}
+.sell-button:hover {
+    background: linear-gradient(45deg, #ffce32, #3a77ff, #23e5db);
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(58, 119, 255, 0.5);
+    animation: pulse 1s infinite;
+}
+.top-bar-icons{
+    padding: 20px;
+    font-size: 20px;
+}
+.li-menu{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 0,8em;
+}
+.li-menu:hover{
+    cursor: pointer;
+    color: #46aca9;
+}
+.txt-bold{
+    font-weight: bold;
+}
+.mySlides{
+    width: 100%;
+    border-radius: 5px;
+    animation: fade 3s ease-in-out infinite;
+}
+.header-ad{
+    padding-left: 400px;
+    margin: 10px;
+}
+.clasifieds-cards-area{
+    padding: 0 80px;
+    margin-top: 10px;
+    height: auto;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+
+}
+.ad-card{
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #bfbfbf;
+    width: 250px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+}
+.ad-card:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.ad-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.pricing{
+    padding: 10px;
+    font-weight: bold;
+}
+.ad-desc{
+    padding: 10px;
+}
+.location{
+    padding: 10px;
+}
+.small-txt{
+   font-size: 12px;
+   color: #000;
+   margin-top: 5px;
+}
+.fa-heart{
+    float: right;
+}
+.footer-link-head{
+    margin-bottom: 10px; 
+ }
+.footer-links{
+    list-style-type:none;
+    margin-bottom: 3px;
+    color:#6c6c6c;
+}
+.footer-column{
+    margin-right: 20px;
+    display: inline-block;
+    width:18%;
+}
+.social-footer-links{
+    margin-right: 10px;
+}
+.footer-credit footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #002f34;
+    color: #fff;
+} 
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-container {
+        margin: 10px 10px;
+    }
+
+    .navbar-menu-cat {
+        text-align: center;
+    }
+    .navbar-menu-cat li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .li-menu {
+        padding: 8px;
+        display: block;
+    }
+    .clasifieds-cards-area {
+        padding: 10px;
+    }
+
+    .header-ad {
+        padding-left: 10px;
+    }
+
+    .sell-button {
+        margin-left: 10px;
+    }
+
+    .search {
+        width: 80vw;
+    }
+
+    .ad-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer-column {
+        width: 100%;
+        margin-right: 0;
+    }
+
+}
+/* sell code */
+
+
+
+
+.showcase img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+    opacity: 0.8;
+    filter: sepia(100%);
+   -webkit-filter: sepia(100%);
+}
+
+
